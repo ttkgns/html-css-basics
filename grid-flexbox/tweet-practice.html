@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Tweet Ex.</title>
+    <style>
+      p{
+        font-family: 0;
+        margin-top: 0;
+        margin-bottom: 0;
+      }
+      .container{
+        display: flex;
+        width: 400px;
+        flex-direction: row;
+        box-shadow: 0 0 5px gray;
+      }
+      .profile-container{
+        width: 75px;
+        margin-top: 5px;
+        margin-left: 10px;
+        margin-right: 10px;
+      }
+      .profile-picture{
+        width: 50px;
+        height: 50px;
+        object-fit: cover;
+        border-radius: 25px;
+      }
+      .tweet-container{
+        display: flex;
+        flex-direction: column;
+        margin-top: 5px;
+        margin-bottom: 5px;
+      }
+      .user-id{
+        margin-bottom: 3px;
+      }
+      .user-id span{
+        color:gray;
+      }
+      .tweet-text{
+        margin-bottom: 5px;
+      }
+      .video-container{
+        display:flex;
+        flex-direction: row;
+      }
+      .video-preview{
+        width: 60px;
+        height: 70px;
+        background-color: rgb(226, 226, 226);
+        border-radius: 5px;
+        margin-right: -5px;
+      }
+      .video-title-container{
+        display:flex;
+        flex-direction: column;
+        border: 1px;
+        border-style: solid;
+        border-radius: 5px;
+        border-color: rgb(226, 226, 226);
+        
+        width: 230px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+
+        justify-content: center;
+        
+      }
+      .youtube-title{
+        color:gray;
+        margin-left: 10px;
+      }
+      .video-title{
+        margin-left: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="profile-container">
+        <img class="profile-picture" src="kedi.jpg">
+      </div>
+      <div class="tweet-container">
+        <div class="user-id"><strong>supersimple.dev</strong> <span>@SuperSimpleDev</span></div>
+        <div class="tweet-text">What is backend web development? A complete overview. New video is up!</div>
+        <div class="video-container">
+          <div class="video-preview"></div>
+          <div class="video-title-container">
+            <div class="youtube-title">youtube.com</div>
+            <div class="video-title">Backend web development - a complete overview (2021)</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,29 @@
+.name-box,
+.email-box{
+  display: block;
+  margin-bottom: 10px;
+}
+.text{
+  width: 200px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.google-logo-img,
+.search-box{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  margin-bottom: 20px;
+}
+.search-box{
+  width: 50%;
+  height: 40px;
+  border-radius: 30px;
+  border:none;
+  box-shadow: 0 0 5px gray;
+  font-size: 18px;
+  padding-left: 20px;
+}
+
+    

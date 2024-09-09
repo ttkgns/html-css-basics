@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>FaZbook</title>
+    <style>
+      body{
+        height: 1000px;
+      }
+      .header{
+        position: fixed;
+        display: flex;
+        align-items: center;
+        top: 0;
+        left: 0;
+        right: 0;
+      }
+      .profile{
+        padding: 10px;
+        width: 50px;
+      }
+      .profile-picture{
+        height: 50px;
+        width: 50px;
+        object-fit: cover;
+        border-radius: 25px;
+      }
+      .name{
+        font-weight: bold;
+        padding: 10px;
+        flex:1;
+      }
+      .add-friend-button{
+        background-color: rgb(0, 170, 255);
+        color: white;
+        padding: 10px;
+        border: none;
+        border-radius: 10px;
+        margin-right: 5px;
+        font-weight: bold;
+      }
+      .message-button{
+        background-color: rgb(218, 218, 218);
+        color: black;
+        padding: 10px;
+        border: none;
+        border-radius: 10px;
+        margin-right: 5px;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <div class="profile">
+        <img class="profile-picture" src="kedi.jpg">
+      </div>
+      <div class="name">Oliver Cat</div>
+      <button class="add-friend-button">Add Friend</button>
+      <button class="message-button">Message</button>
+    </div>
+  </body>
+</html>

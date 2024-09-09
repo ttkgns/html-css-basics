@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Cat Profiles</title>
+    <style>
+      p{
+        font-family: Arial;
+        margin-top: 0;
+        margin-bottom: 0;
+      }
+      .container{
+        width: 300px;
+      }
+      .flexbox{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-bottom: 20px;
+      }
+      .picture{
+        width: 50px;
+        height: 50px;
+        object-fit: cover;
+        border-radius: 25px;
+        margin-right: 15px;
+      }
+      .text-div{
+        width:200px;
+        font-weight: bold;
+      }
+      .follow-button{
+        background-color: rgb(29, 155, 240);
+        color:white;
+
+        border:none;
+        border-radius: 5px;
+        font-weight: bold;
+        cursor:pointer;
+
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 15px;
+        padding-right: 15px;
+      }
+      .name{
+        font-weight: bold;
+        margin-bottom: 3px;
+      }
+      .cat{
+        color: rgb(150, 150, 150);
+        margin-bottom: 5px;
+      }
+      .popular{
+        color: rgb(150, 150, 150);
+        font-size: 14px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="flexbox">
+        <img class="picture" src="kedi.jpg">
+        <div class="text-div">
+          <p class="name">Oliver</p>
+          <p class="cat">The cat</p>
+          <p class="popular">Popular</p>
+        </div>
+        <button class="follow-button">Follow</button>
+      </div>
+    </div>
+    <div class="container">
+      <div class="flexbox">
+        <img class="picture" src="kedi.jpg">
+        <div class="text-div">
+          <p class="name">Mimi</p>
+          <p class="cat">Sleepy cat</p>
+          <p class="popular">Popular</p>
+        </div>
+        <button class="follow-button">Follow</button>
+      </div>
+    </div>
+    <div class="container">
+      <div class="flexbox">
+        <img class="picture" src="kedi.jpg">
+        <div class="text-div">
+          <p class="name">Rex</p>
+          <p class="cat">Happy Bulldog</p>
+          <p class="popular">Popular</p>
+        </div>
+        <button class="follow-button">Follow</button>
+      </div>
+    </div>
+  </body>
+</html>

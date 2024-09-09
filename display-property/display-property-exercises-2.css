@@ -1,0 +1,26 @@
+input, .sign-up-button{
+  display: block;
+  margin: 5px;
+  height: 40px;
+  border-radius: 5px;
+  border:none;
+  box-shadow: 0  0 5px gray;
+  padding-left: 10px;
+}
+.name-box,
+.lastname-box{
+  display: inline-block;
+  width: 101px;
+}
+.email-box{
+  width: 227px; 
+}
+.sign-up-button{
+  border:none;
+  width: 240px;
+  text-align: center;
+  background-color: rgb(0, 149, 255);
+  color:white;
+  font-weight: bold;
+  font-size: 15px;
+}
